@@ -1,11 +1,12 @@
 # GitHub Repository: https://github.com/yangsoje/weather-report-app.git
+# 작성자 : 양소제
 # 파일명: weather_report.py
 # 설명: Open-Meteo API를 이용한 날씨 예보 리포트 프로그램
 
 import json
 from datetime import datetime
 from typing import Optional, Dict, Any
-import requests
+import requests # type: ignore
 
 # Open-Meteo WMO 날씨 코드 매핑
 WMO_WEATHER_CODES = {
