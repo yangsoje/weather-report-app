@@ -3,6 +3,7 @@
 # 파일명: weather_report.py
 # 설명: Open-Meteo API를 이용한 날씨 예보 리포트 프로그램
 
+from builtins import float
 import json
 from datetime import datetime
 from typing import Optional, Dict, Any
